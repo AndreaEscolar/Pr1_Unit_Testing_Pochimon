@@ -17,7 +17,6 @@ public class Pochimon extends ElementAbs implements ICatchable {
     private int attack;
     private int defense;
     
-    
     public Pochimon(String name, String species, String description, boolean isShiny, boolean isWild,
 			List<String> types, List<String> moves, int hp, int maxHp, int attack, int defense) {
 		this.name = name;
